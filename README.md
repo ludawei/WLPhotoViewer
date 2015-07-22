@@ -4,6 +4,8 @@
 ![](7月 22 2015-16-34.gif)
 
 使用方法：
+
+
 {% highlight objc %}
 -(void)clickButton:(UIButton *)button
 {
