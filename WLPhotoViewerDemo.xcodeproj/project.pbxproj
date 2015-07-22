@@ -14,6 +14,14 @@
 		EE0ECBDE1B5F7EFA005639BF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECBDD1B5F7EFA005639BF /* Images.xcassets */; };
 		EE0ECBE11B5F7EFA005639BF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECBDF1B5F7EFA005639BF /* LaunchScreen.xib */; };
 		EE0ECBED1B5F7EFA005639BF /* WLPhotoViewerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0ECBEC1B5F7EFA005639BF /* WLPhotoViewerDemoTests.m */; };
+		EE0ECBF91B5F7F37005639BF /* WLPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0ECBF81B5F7F37005639BF /* WLPhotoViewController.m */; };
+		EE0ECBFC1B5F7F45005639BF /* WLPhotoView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0ECBFB1B5F7F45005639BF /* WLPhotoView.m */; };
+		EE0ECC001B5F7FD8005639BF /* VICMAImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0ECBFF1B5F7FD8005639BF /* VICMAImageView.m */; };
+		EE0ECC031B5F800C005639BF /* UIView+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = EE0ECC021B5F800C005639BF /* UIView+Extra.m */; };
+		EE0ECC091B5F84B4005639BF /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECC041B5F84B4005639BF /* 1.jpg */; };
+		EE0ECC0A1B5F84B4005639BF /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECC051B5F84B4005639BF /* 2.jpg */; };
+		EE0ECC0B1B5F84B4005639BF /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECC061B5F84B4005639BF /* 3.jpg */; };
+		EE0ECC0D1B5F84B4005639BF /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = EE0ECC081B5F84B4005639BF /* 4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +48,18 @@
 		EE0ECBE61B5F7EFA005639BF /* WLPhotoViewerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WLPhotoViewerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE0ECBEB1B5F7EFA005639BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE0ECBEC1B5F7EFA005639BF /* WLPhotoViewerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WLPhotoViewerDemoTests.m; sourceTree = "<group>"; };
+		EE0ECBF71B5F7F37005639BF /* WLPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPhotoViewController.h; sourceTree = "<group>"; };
+		EE0ECBF81B5F7F37005639BF /* WLPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLPhotoViewController.m; sourceTree = "<group>"; };
+		EE0ECBFA1B5F7F45005639BF /* WLPhotoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLPhotoView.h; sourceTree = "<group>"; };
+		EE0ECBFB1B5F7F45005639BF /* WLPhotoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLPhotoView.m; sourceTree = "<group>"; };
+		EE0ECBFE1B5F7FD8005639BF /* VICMAImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VICMAImageView.h; sourceTree = "<group>"; };
+		EE0ECBFF1B5F7FD8005639BF /* VICMAImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VICMAImageView.m; sourceTree = "<group>"; };
+		EE0ECC011B5F800C005639BF /* UIView+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extra.h"; sourceTree = "<group>"; };
+		EE0ECC021B5F800C005639BF /* UIView+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extra.m"; sourceTree = "<group>"; };
+		EE0ECC041B5F84B4005639BF /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		EE0ECC051B5F84B4005639BF /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		EE0ECC061B5F84B4005639BF /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		EE0ECC081B5F84B4005639BF /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +83,7 @@
 		EE0ECBC41B5F7EFA005639BF = {
 			isa = PBXGroup;
 			children = (
+				EE0ECBF61B5F7F28005639BF /* WLPhotoViewer */,
 				EE0ECBCF1B5F7EFA005639BF /* WLPhotoViewerDemo */,
 				EE0ECBE91B5F7EFA005639BF /* WLPhotoViewerDemoTests */,
 				EE0ECBCE1B5F7EFA005639BF /* Products */,
@@ -81,6 +102,8 @@
 		EE0ECBCF1B5F7EFA005639BF /* WLPhotoViewerDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EE0ECC011B5F800C005639BF /* UIView+Extra.h */,
+				EE0ECC021B5F800C005639BF /* UIView+Extra.m */,
 				EE0ECBD41B5F7EFA005639BF /* AppDelegate.h */,
 				EE0ECBD51B5F7EFA005639BF /* AppDelegate.m */,
 				EE0ECBD71B5F7EFA005639BF /* ViewController.h */,
@@ -96,6 +119,10 @@
 		EE0ECBD01B5F7EFA005639BF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				EE0ECC041B5F84B4005639BF /* 1.jpg */,
+				EE0ECC051B5F84B4005639BF /* 2.jpg */,
+				EE0ECC061B5F84B4005639BF /* 3.jpg */,
+				EE0ECC081B5F84B4005639BF /* 4.jpg */,
 				EE0ECBD11B5F7EFA005639BF /* Info.plist */,
 				EE0ECBD21B5F7EFA005639BF /* main.m */,
 			);
@@ -117,6 +144,27 @@
 				EE0ECBEB1B5F7EFA005639BF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE0ECBF61B5F7F28005639BF /* WLPhotoViewer */ = {
+			isa = PBXGroup;
+			children = (
+				EE0ECBFD1B5F7FD8005639BF /* VICMAImageView */,
+				EE0ECBF71B5F7F37005639BF /* WLPhotoViewController.h */,
+				EE0ECBF81B5F7F37005639BF /* WLPhotoViewController.m */,
+				EE0ECBFA1B5F7F45005639BF /* WLPhotoView.h */,
+				EE0ECBFB1B5F7F45005639BF /* WLPhotoView.m */,
+			);
+			path = WLPhotoViewer;
+			sourceTree = "<group>";
+		};
+		EE0ECBFD1B5F7FD8005639BF /* VICMAImageView */ = {
+			isa = PBXGroup;
+			children = (
+				EE0ECBFE1B5F7FD8005639BF /* VICMAImageView.h */,
+				EE0ECBFF1B5F7FD8005639BF /* VICMAImageView.m */,
+			);
+			path = VICMAImageView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +247,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0ECC091B5F84B4005639BF /* 1.jpg in Resources */,
+				EE0ECC0D1B5F84B4005639BF /* 4.jpg in Resources */,
+				EE0ECC0A1B5F84B4005639BF /* 2.jpg in Resources */,
 				EE0ECBDC1B5F7EFA005639BF /* Main.storyboard in Resources */,
 				EE0ECBE11B5F7EFA005639BF /* LaunchScreen.xib in Resources */,
 				EE0ECBDE1B5F7EFA005639BF /* Images.xcassets in Resources */,
+				EE0ECC0B1B5F84B4005639BF /* 3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE0ECBFC1B5F7F45005639BF /* WLPhotoView.m in Sources */,
+				EE0ECC031B5F800C005639BF /* UIView+Extra.m in Sources */,
 				EE0ECBD91B5F7EFA005639BF /* ViewController.m in Sources */,
 				EE0ECBD61B5F7EFA005639BF /* AppDelegate.m in Sources */,
+				EE0ECBF91B5F7F37005639BF /* WLPhotoViewController.m in Sources */,
 				EE0ECBD31B5F7EFA005639BF /* main.m in Sources */,
+				EE0ECC001B5F7FD8005639BF /* VICMAImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
