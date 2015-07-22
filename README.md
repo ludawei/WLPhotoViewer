@@ -6,8 +6,7 @@
 使用方法：
 
 
-{% highlight objc %}
--(void)clickButton:(UIButton *)button
+<pre><code>-(void)clickButton:(UIButton *)button
 {
     WLPhotoViewController *next = [WLPhotoViewController new];
     next.photos = self.photos;
@@ -15,4 +14,4 @@
     next.index = button.tag - 10;
     [next showFromController:self withButton:button buttonParentView:self.view];
 }
-{% endhighlight %}
+</code></pre>
